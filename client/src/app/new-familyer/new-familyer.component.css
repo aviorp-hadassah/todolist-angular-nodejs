@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+form {
+    color: white;
+    text-align: center;
+    margin: 50px auto;
+}
+
+input {
+    padding: 5px;
+    margin: 10px auto;
+    display: block;
+    width: 20vw;
+}
+
+.sub {
+    padding: 10px;
+    box-shadow: #0000008f 2px 3px 5px 0px;
+    font-size: medium;
+    width: 20vw;
+}
+
+#edit {
+    display: flex;
+    margin: auto;
+}
+
+#edit input {
+    margin: 0;
+    width: 125px;
+}
+
+#edit select {
+    width: 250px;
+}
+
+#editDiv{
+    text-align: center;
+    display: grid;
+}
